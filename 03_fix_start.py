@@ -14,8 +14,8 @@ onde todas as instancias de stra foram substituidas por strb.
 """
 
 def fix_start(s):
-    # +++ SUA SOLUÇÃO +++
-    return
+    # Para não utilizar um loop de repetição, utilizei a função Replace() e fixei o primeiro caractere da palavra com s[0] somando ao restante refatorado.
+    return s[0] + s[1:].replace(s[0],'*')
 
 
 # --- Daqui para baixo são apenas códigos auxiliáries de teste. ---
