@@ -10,8 +10,8 @@ e donuts(23) retorna 'Number of donuts: many'
 """
 
 def donuts(count):
-    # +++ SUA SOLUÇÃO +++
-    return
+    # Procurei resolver da maneira mais agrupada possível de forma a utilizar um return apenas e não utilizar variaveis auxiliares para poupar memória
+    return 'Number of donuts: ' + str( count if count < 10 else 'many')
 
 
 # --- Daqui para baixo são apenas códigos auxiliáries de teste. ---
