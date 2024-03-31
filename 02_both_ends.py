@@ -8,8 +8,8 @@ for menor que 2, retorne uma string vazia.
 """
 
 def both_ends(s):
-    # +++ SUA SOLUÇÃO +++
-    return
+    # Procurei resolver de forma mais simplificada possível utilizando o Slice() do python e alterando apenas uma linha do código
+    return s[:2] + s[-2:] if len(s) > 2 else ''
 
 
 # --- Daqui para baixo são apenas códigos auxiliáries de teste. ---
