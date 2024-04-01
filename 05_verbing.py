@@ -11,8 +11,14 @@ Retorne o resultado da string.
 """
 
 def verbing(s):
-    # +++ SUA SOLUÇÃO +++
-    return
+    # Dessa vez procurei resolver de forma mais organizada para não me perder, utilizei endwith para saber qual o final da string.
+    if len(s) >= 3:
+        if s.endswith('ing'):
+            return s + 'ly'
+        else:
+            return s + 'ing'
+    else:
+        return s
 
 
 # --- Daqui para baixo são apenas códigos auxiliáries de teste. ---
